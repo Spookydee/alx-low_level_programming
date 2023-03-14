@@ -1,5 +1,6 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * *str_concat - concatenates two strings
@@ -8,6 +9,7 @@
  *
  * Return: pointer to the new string created (Success), or NULL (Error)
  */
+
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
@@ -33,7 +35,6 @@ char *str_concat(char *s1, char *s2)
 			i++;
 		}
 	}
-
 	if (s2)
 	{
 		while (i < (len1 + len2))
